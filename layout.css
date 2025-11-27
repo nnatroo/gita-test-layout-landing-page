@@ -1,0 +1,39 @@
+.wide-container {
+    width: 1700px;
+}
+
+.container {
+    width: 1420px;
+}
+
+@media  (max-width: 1680px) {
+    .container {
+        width: 1220px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 1020px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 980px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: auto;
+        padding-inline: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding-inline: 25px;
+    }
+}
+
